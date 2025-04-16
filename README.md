@@ -17,3 +17,8 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+The worst case $\Theta$ time complexity is $\Theta(n)$. This is because
+it has a single simple for loop that itterates n times. I hold the previous
+factorial for reuse so I don't need to have a recursive call that would give
+me another n.
