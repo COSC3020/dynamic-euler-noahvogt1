@@ -1,4 +1,5 @@
 # Dynamic Programming Euler's Number
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
 
 The mathematical constant $e$ (Euler's number) is defined as follows:
 
@@ -17,3 +18,8 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+The worst case $\Theta$ time complexity is $\Theta(n)$. This is because
+it has a single simple for loop that itterates n times. I hold the previous
+factorial for reuse so I don't need to have a recursive call that would give
+me another n.
